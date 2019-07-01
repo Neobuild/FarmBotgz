@@ -5,7 +5,7 @@
      "description": "oh shit every go again",
      "version": "1.8.4",
      "min_os_version_major": 6,
-     "url": "https://raw.githubusercontent.com/CiaranHagen/farmbot/master/manifest.json",
+     "url": "https://raw.githubusercontent.com/Neobuild/FarmBotgz/master/manifest.json",
      "zip": "https://github.com/Neobuild/FarmBotgz/archive/master.zip",
      "executable": "python",
      "args": ["FarmBotgz-master/launch.py"],
