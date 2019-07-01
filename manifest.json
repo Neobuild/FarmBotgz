@@ -6,7 +6,7 @@
      "version": "1.8.1",
      "min_os_version_major": 6,
      "url": "https://raw.githubusercontent.com/Neobuild/FarmBotgz/master/manifest.json",
-     "zip": "https://github.com/CiaranHagen/farmbot/archive/master.zip",
+     "zip": "https://github.com/Neobuild/FarmBotgz/archive/master.zip",
      "executable": "python",
      "args": ["farmbot-master/launch.py"],
      "config": []
