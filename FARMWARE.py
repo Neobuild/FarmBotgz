@@ -476,14 +476,9 @@ class MyFarmware():
         self.struct = Structure()				#This initializes the layout of the farm. It loads pots and plants that were created in a former run of the program from the "plants" and "pots" directories. It loads all existing pots from potLayout.xml. The pots are determined be coords, so the existing pots should normally not be overwritten by this.
         log("Data loaded.", message_type='info')		#Just some fancy information.
 
-        self.goto(0,0,0)
-        while true :
-            log("Wait_Time.", message_type='info')					#send the bot to 0,0,0. Not necessary, but a nice check to see if the origin is properly set.
-        import time
-        while True:
+        self.goto(0,0,0) #send the bot to 0,0,0. Not necessary, but a nice check to see if the origin is properly set.
             time.sleep(20) # Delay for 1 minute (60 seconds).
             print("This prints 20 seconds.")
-            break
             self.goto(500,500,50)
 
 
